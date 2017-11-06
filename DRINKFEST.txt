@@ -1,0 +1,25 @@
+DRINKFEST , festival promovues
+
+LLoj festivaliiiii..
+reklaminin e pijeve.
+pijet: ven , kafe , qaj , koktell
+
+entitetet:  
+   lokacioni
+    pjesmaresit
+    bileta
+    punonjesit
+    menagjert
+     //vena
+    //qaji
+    //kafja
+    //koktell
+
+
+
+
+
+
+                    pija
+   alkoholike                  joalkoholike
+ vena       birra           qaji        kafja

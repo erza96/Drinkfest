@@ -1,0 +1,209 @@
+@font-face {
+	font-family: Calligraffitti;
+	src: url(Calligraffiti.ttf);
+}
+
+.logo {
+    font-family: "Calligraffitti";
+    font-size: 1.5em;
+    text-shadow: 10px 10px 10px DimGrey;
+    font-weight: bold;
+    color: white;
+    float: left;
+    width: 15%;
+    margin: 0;
+    padding: 0em;
+}
+
+body {
+    background-image: url('../images/brickwall.jpg');
+    background-size: cover;
+    
+}
+
+/* CSSTerm.com Simple Horizontal DropDown CSS menu */
+
+.header {
+    background:rgba(0, 0, 0, 0.68);
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    height:60px;
+}
+.header li {
+    float:left;
+}
+.header li a {
+    padding:9px 20px;
+    padding-top: 20px;
+    display:block;
+    color:white;
+    text-decoration:none;
+    font-family: Calligraffitti;
+    font-size: 20px;
+}
+
+/* Submenu */
+.header ul {
+    position:absolute;
+    left:-9999px;
+    top:-9999px;
+    list-style-type:none;
+}
+.header li:hover {
+    color:rgba(157, 77, 77, 1);
+    position:relative;
+}
+.header li:hover ul {
+    left:0px;
+    top:60px;
+    background:rgba(0, 0, 0, 0.68);
+    padding:0px;
+    color:rgba(157, 77, 77, 1);
+}
+
+.header li:hover ul li a {
+    padding:10px;
+    display:block;
+    width:168px;
+    text-indent:5px;
+    background-color:rgba(0, 0, 0, 0.68);
+}
+.header li:hover ul li a:hover {
+    background:rgba(0, 0, 0, 0.68);
+    color:rgba(157, 77, 77, 1);
+}
+
+.header .active {
+    color:rgba(157, 77, 77, 1);
+}
+
+.unclickable {
+    pointer-events: none;
+}
+
+#welcome {
+    clear: left;
+    position: inherit;
+    top: 100px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    overflow: auto;
+    text-align: center;
+    padding-top: 40px;
+    height: 100%;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.68) 0px 37px;
+    color:white;
+    font-family: 'Calligraffitti';
+}
+
+
+
+#page {
+    clear: left;
+    position: inherit;
+    top: 100px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    padding: 4em 0;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    height: 100%;
+    padding-left: 70px;
+    text-align: left;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.68) 0px 37px;
+    color:white;
+    font-family: monospace;
+}
+
+
+#drink {
+    font-family: 'Calligraffitti';
+    color: white;
+    font-size: 130%;
+    position:static;
+    float:left;
+    
+} 
+
+#pagedrink {
+    clear: left;
+    position: inherit;
+    top: 100px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    overflow: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-right:100px;
+    height: 100%;
+    font-size: 23px;
+    background: rgba(0, 0, 0, 0.68) 0px 37px;
+    color:white;
+    font-family: 'Monotype Corsiva';
+}
+
+#h {
+  font-family: 'Calligraffitti';
+    color:rgba(157, 77, 77, 1);
+    font-size: 180%; 
+}
+
+#pagecontact {
+
+    clear: left;
+    position: inherit;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin-top: 0px;
+    margin-right: 100px;
+    margin-left: 10px;
+    overflow: auto;
+    text-align: left;
+    padding-top: 0px;
+    height: 100%;
+    font-size: 25px;
+    color:white;
+    font-family: 'Monotype Corsiva';
+}
+
+#contactform {
+    font-family: 'Monotype Corsiva';
+    color:white;
+    font-size: 23px;
+    padding-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+
+#footer {
+    
+    bottom:0;
+    width:100%;
+    position:absolute; 
+    background: rgba(0, 0, 0, 0.68) 0px 37px;
+    color:rgba(157, 77, 77, 1);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family:monospace;
+    font-size: 100%;
+}

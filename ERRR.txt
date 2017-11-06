@@ -1,0 +1,18 @@
+Analiza e problemit: DRINKFEST
+
+entitet: 
+lokacioni
+pjesemarresit
+            pija
+  alkoolike     joalkoolike
+lloji
+
+lidhja:  ka
+
+Drinkfest eshte festival.Ai ka nje lokacion se ku do te mbahet.Lokacioni njihet me shifren identifikuese, 
+emrin,vendin,kohezgjatjen.DRINKFEST ka pjesmarresit e vet.
+Pjesmarresit identifikohen me pseudenim,emri , mbiemri , data_lindjes,
+emaili,gjinia,nr_tel.
+Cdo Persooni i cili deshrion te behet pjesemarres ne festival duhet te rregjistrohet ne web ,
+ ku ky regjistrim ia mundeson automatikisht bileten. (LIDHJA PJESMARRES EDHE BILETA.)
+Bileta ka ID-N , NR_tavolinES.7M    CC
